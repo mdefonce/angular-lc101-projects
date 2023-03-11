@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-photos.component.css']
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = 'My Favorite iStock Images';
+  image1 = 'https://media.istockphoto.com/id/1459931673/photo/unhappy-old-man-with-a-white-fedora-hat-blue-guayabera-shirt-showing-middle-finger-sign.jpg?s=1024x1024&w=is&k=20&c=_mT2jjIH76amBDSPDtHfL8wZSDFIHoesDoMa6Wx2x68=';
+  image2 = 'https://media.istockphoto.com/id/1468488377/photo/spooky-alien-in-the-bathtub.jpg?s=1024x1024&w=is&k=20&c=HIhrKqG93AS8XrYN2HLu3R36DmLJJXcy_6jutpXg1jw=';
+  image3 = 'https://media.istockphoto.com/id/1191072534/photo/angry-senior-woman-protecting-her-cat-with-a-gun.jpg?s=1024x1024&w=is&k=20&c=RoKX6gSWeyrttHy-FrG8apC2ti20sfqZ4MtlDByiLtE=';
 
   constructor() { }
 
